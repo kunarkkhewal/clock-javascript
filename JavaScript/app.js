@@ -49,7 +49,7 @@ var clock = setInterval(function(){
 
     var time = hr + ":" + min + ":" + sec + " " + meridian;
     document.getElementById("time").innerText = time;
-
+    document.getElementById("tab").innerText = time;
     wish = "Good "+wish;
     document.getElementById("wishes").innerText = wish;
 
